@@ -1,0 +1,54 @@
+.dang_ky .container {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff; /* Màu nền của container */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+  
+  .dang_ky .container h2 {
+    color: #333; /* Màu chữ của tiêu đề */
+    text-align: center;
+  }
+  
+  .dang_ky form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .dang_ky label {
+    margin-bottom: 5px;
+    color: #333; /* Màu chữ của nhãn */
+  }
+  
+  .dang_ky input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .dang_ky button {
+    width: 100%;
+    padding: 10px;
+    background-color: #D2B48C; /* Màu nền của nút */
+    color: #fff; /* Màu chữ của nút */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Hiệu ứng màu nền khi hover */
+  }
+  
+  .dang_ky button:hover {
+    background-color: #b0926b; /* Màu nền khi hover */
+  }
+  
+  .dang_ky div[style="color: red"] {
+    color: red; /* Màu chữ của thông báo lỗi */
+  }
+  

@@ -1,0 +1,19 @@
+
+.header02 .simple-header {
+    background-color: #333; 
+    color: white; 
+    padding: 15px; 
+    display: flex;
+    justify-content: left;
+    height: 50px; 
+  }
+  
+  .header02 .logo img {
+    max-width: 50px; 
+  }
+  
+  .header02  .login {
+    display: flex;
+    align-items: center;
+  }
+  

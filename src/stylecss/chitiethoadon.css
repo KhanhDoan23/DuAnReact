@@ -1,0 +1,43 @@
+
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .modal-content {
+    text-align: left;
+  }
+  
+  button {
+    background-color: #4caf50; 
+    color: #fff; 
+    /* border: none;
+    padding: 10px 15px;
+    margin-top: 10px; */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+  }
+  
+  button:hover {
+    background-color: #45a049; 
+  }
+  
+ 
+  button.danh-gia {
+    background-color: #2196f3;
+  }
+  
+  button.danh-gia:hover {
+    background-color: #1976D2;
+  }
+  

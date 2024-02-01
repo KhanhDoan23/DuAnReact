@@ -1,0 +1,105 @@
+.danh-sach-gio-hang {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px; 
+  }
+  
+  .gio-hang-item {
+    width: calc(33.33% - 20px);
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    overflow: hidden;
+  }
+  
+  .gio-hang-item:hover {
+    transform: scale(1.05);
+  }
+  
+  .gio-hang-info {
+    margin-top: 10px;
+  }
+  
+  .gio-hang-info p {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .gio-hang-quantity {
+    color: #2196F3;
+  }
+  
+  .gio-hang-name {
+    color: #4CAF50;
+    font-weight: bold;
+  }
+  
+  .gio-hang-price {
+    color: #FF9800;
+  }
+  
+  .gio-hang-color {
+    color: #E91E63;
+  }
+  
+  .gio-hang-capacity {
+    color: #9C27B0;
+  }
+  
+  
+.xoa-san-pham-button {
+    background-color: #FF0000; 
+    color: #fff; 
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+  
+  .xoa-san-pham-button:hover {
+    background-color: #CC0000;
+  }
+  
+  .xoa-san-pham-button .trash-icon {
+    margin-right: 5px;
+    font-size: 16px;
+  }
+
+.thanh-toan-button {
+    background-color: #FF0000; 
+    color: #fff; 
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+  
+  }
+  
+  .thanh-toan-button:hover {
+    background-color: #CC0000;
+  }
+  .them-vao-gio-hang{
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  .them-vao-gio-hang:hover{
+    background-color: #ddd;
+  }
+  .them-yeu-thich{
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    float: right;
+  }
+  .rounded-logo {
+    border-radius: 50%;
+  }

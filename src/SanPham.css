@@ -1,0 +1,175 @@
+
+
+.ChiTietSanPhamCPN {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f7f7f7;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.ChiTietSanPhamCPN h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.ChiTietSanPhamCPN p {
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+.ChiTietSanPhamCPN h3 {
+  font-size: 20px;
+  margin-top: 20px;
+  color: #333;
+}
+
+.ChiTietSanPhamCPN ul {
+  list-style: none;
+  padding: 0;
+}
+
+.ChiTietSanPhamCPN li {
+  margin-bottom: 10px;
+}
+
+.ChiTietSanPhamCPN button {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.ChiTietSanPhamCPN button:hover {
+  background-color: #2980b9;
+}
+
+.ChiTietSanPhamCPN .img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.NavLinkWrapper {
+  margin-top: 10px;
+}
+
+.NavLink {
+  text-decoration: none;
+  color: #3498db;
+  font-weight: bold;
+  margin-right: 10px;
+  transition: color 0.3s ease-in-out;
+}
+
+.NavLink:hover {
+  color: #2980b9;
+}
+
+.ChiTietSanPhamCPN button {
+  background-color: #e74c3c;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 20px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.ChiTietSanPhamCPN button:hover {
+  background-color: #c0392b;
+}
+
+/* DanhSachYeuThich.css */
+
+.danh-sach-yeu-thich-container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.yeu-thich-list {
+  list-style: none;
+  padding: 0;
+}
+
+.yeu-thich-item {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+
+
+.XoaYeuThich {
+  background-color: #ff6961; 
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.XoaYeuThich:hover {
+  background-color: #ff4d4d; 
+}
+.imgSP{
+  width: 400px;
+  height: 400px;
+}
+.san-pham {
+  padding-top: 20px; 
+}
+
+
+.TimKiemSP {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px; 
+}
+
+
+.card-item {
+  max-width: 300px;
+  /* height: 400px; */
+  margin: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+  box-sizing: border-box;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: calc(16.6667% - 20px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.picDanhMuc{
+  width: 10%;
+  height: 10%;
+}
+.price{
+  color: #c0392b;
+}
+.name:hover{
+color: #3498db;
+}
+.storage-variant:hover{
+color: #3498db;
+}

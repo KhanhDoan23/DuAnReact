@@ -1,0 +1,20 @@
+.danh-muc-san-pham {
+    text-align: center;
+    margin: 20px;
+  }
+
+ 
+.storage-info {
+  display: flex;
+  align-items: center;
+}
+
+
+.storage-variant {
+  margin: 0;
+}
+
+
+.storage-divider {
+  margin: 0 5px; 
+}

@@ -1,0 +1,55 @@
+.resetPassword .container-reset {
+    max-width: 600px;
+    margin: 40px auto;
+    height: 400px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    padding: 40px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  }
+
+    .resetPassword h2,
+    .resetPassword label,
+    .resetPassword input,
+    .resetPassword button {
+    height: 50px; 
+    margin-bottom: 30px;
+    margin-top: 30px;
+    }
+    .resetPassword .error-message {
+        margin-bottom: 0;
+        color:red;
+      }
+
+  .resetPassword h2 {
+    color: #000000; 
+    text-align: center;
+    font-size: 50px;
+  }
+  
+  .resetPassword input {
+    width: 300px;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+  
+  .resetPassword button {
+    width: 300px;
+    padding: 10px;
+    background-color:#D2B48C;
+    color: white; 
+    border: 1px solid #000000; 
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .resetPassword button:hover {
+    background-color: #cda775; 
+  }

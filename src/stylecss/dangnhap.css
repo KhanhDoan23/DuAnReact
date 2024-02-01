@@ -1,0 +1,72 @@
+
+.dang_nhap .login-page {
+  background-color: #2c2b2b;
+  display: flex;
+  height: 100%;
+}
+
+.dang_nhap .left-section {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dang_nhap .right-section {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dang_nhap .image {
+  max-width: 100%;
+  height: auto;
+}
+
+.dang_nhap .login-container {
+  width: 350px; 
+  max-height: 500px;
+  padding: 20px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  text-align: center;
+}
+
+.dang_nhap .form-group {
+  margin-bottom: 30px;
+}
+
+.dang_nhap label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.dang_nhap input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+.dang_nhap .error-message {
+  color: red;
+  margin-top: 10px;
+}
+
+.dang_nhap button {
+  background-color:#D2B48C;
+  color: #fff;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.dang_nhap button:hover {
+  background-color: #cda775; /* Màu nền khi hover */
+}
+

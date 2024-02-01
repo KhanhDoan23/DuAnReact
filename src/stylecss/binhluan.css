@@ -1,0 +1,50 @@
+.binh-luan-container {
+    margin-top: 20px;
+  }
+  
+  .binh-luan-title {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .binh-luan-label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 16px;
+  }
+  
+  .binh-luan-textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .binh-luan-button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .binh-luan-button:hover {
+    background-color: #45a049;
+  }
+
+  .binhLuanContainer {
+    border: 1px solid rgb(242, 20, 20); /* Viền xung quanh mỗi ô bình luận */
+    padding: 10px; /* Khoảng cách giữa nội dung và viền của ô bình luận */
+    margin-bottom: 10px; /* Khoảng cách giữa các ô bình luận */
+  }
+  .xoa{
+    color: #318edf;
+    text-decoration: none;
+  }
+  .xoa:hover{
+    color: #f4320c;
+  }
+  

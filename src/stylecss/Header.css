@@ -1,0 +1,86 @@
+
+.headerAll {
+  background-color: #ffd700; 
+  border-bottom: 1px solid #ccc;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.top-section {
+  display: flex;
+  align-items: center;
+}
+
+.img {
+  margin-right: auto;
+}
+
+.img img {
+  max-width: 100px;
+}
+
+.notifications,
+.support,
+.auth {
+  margin-left: 20px;
+}
+
+.notifications span,
+.support span,
+.auth a {
+  margin-left: 20px;
+  position: relative;
+}
+
+.notifications span:before {
+  content: '\1F514';  
+  font-family: 'Arial', sans-serif;
+  margin-right: 5px;
+}
+
+.support span:before {
+  content: '\1F4BB'; 
+  font-family: 'Arial', sans-serif;
+  margin-right: 5px;
+}
+
+.auth a:before {
+  content: '\1F464'; 
+  font-family: 'Arial', sans-serif;
+  margin-right: 5px;
+}
+
+.cart {
+  margin-left: auto; 
+}
+
+.cart a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  position: relative;
+}
+
+.cart a:before {
+  content: '\1F6D2';
+  font-family: 'Arial', sans-serif;
+  margin-right: 5px;
+}
+
+
+
+.NavLink {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    margin-right: 100px;
+    transition: color 0.3s ease-in-out;
+}
+.rounded-logo {
+  border-radius: 50%; /* Make the logo image circular */
+}

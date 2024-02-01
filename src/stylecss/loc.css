@@ -1,0 +1,49 @@
+
+.loc{
+    position: relative;
+    display: inline-block;
+  }
+  
+
+  select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    padding: 8px;
+    font-size: 14px;
+    width: 200px;
+    cursor: pointer;
+  }
+  
+  select::after {
+    content: '\25BC'; 
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    pointer-events: none;
+  }
+  
+
+  select:hover {
+    border-color: #aaa;
+  }
+  
+
+  select:focus {
+    outline: none;
+    border-color: #555;
+  }
+  .loc-san-pham {
+    margin-bottom: 20px;
+  }
+  
+  .loc-theo-gia-select {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+  }
